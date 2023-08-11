@@ -4,7 +4,7 @@
 pub mod circuit;
 
 #[cfg(any(test, feature = "test-circuits"))]
-mod dev;
+pub mod dev;
 /// Bytecode circuit tester
 #[cfg(test)]
 mod test;
